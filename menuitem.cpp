@@ -4,7 +4,7 @@
 
 MenuItem::MenuItem(const std::string& text, uint32_t char_size)
 {
-    m_font.loadFromFile("/home/xarxer/workspaces/snek/resources/fonts/roboto-black.ttf");
+    m_font.loadFromFile("/path/to/font.ttf");
 
     m_text.setFont(m_font);
     m_text.setString(text);
